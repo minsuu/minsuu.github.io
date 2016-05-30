@@ -1,0 +1,373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<head>\n	<!-- Meta -->\n	<meta charset=\"UTF-8\"/>\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1\">\n	<meta name=\"generator\" content=\"Jekyll\">\n\n	<title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>\n\n	<!-- CSS & fonts -->\n	<link rel=\"stylesheet\" href=\"{{ \"css/main.css\" | prepend: site.baseurl }}\">\n	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600' rel='stylesheet' type='text/css'>\n\n	<!-- RSS -->\n	<link href=\"/atom.xml\" type=\"application/atom+xml\" rel=\"alternate\" title=\"ATOM Feed\" />\n\n</head>\n",
+			"file": "_includes/head.html",
+			"file_size": 635,
+			"file_write_time": 131091230770000000,
+			"settings":
+			{
+				"buffer_size": 635,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/C++/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					"GCC 4.9"
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					"GCC 5.2"
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					"Clang"
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					"Comp"
+				]
+			],
+			[
+				"Packages/User/C++/C++.sublime-build",
+				"GCC 4.9"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/minsu/Documents/Blog/minsuu.github.io",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_includes",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_layouts"
+	],
+	"file_history":
+	[
+		"/Users/minsu/Documents/DataStructure/Subway/test1/data.txt",
+		"/Users/minsu/Documents/DataStructure/Subway/test1/out.out",
+		"/Users/minsu/Documents/DataStructure/Subway/test1/out.txt",
+		"/Users/minsu/Documents/DataStructure/Subway/test1/in.txt",
+		"/Users/minsu/Documents/DataStructure/Subway/test2/huge.txt",
+		"/Users/minsu/Documents/DataStructure/Subway/df",
+		"/Users/minsu/Downloads/MovieDatabase (1)/ConsoleCommand.java",
+		"/Users/minsu/Documents/DataStructure/Matching/matching.out",
+		"/Users/minsu/Downloads/seoul.utf8.txt",
+		"/Users/minsu/Documents/DataStructure/Subway/myout.txt",
+		"/Users/minsu/Documents/UDMUS0524.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/output7.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/myout7.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/diff",
+		"/Users/minsu/Documents/DataStructure/Matching/pattern7.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/pattern8.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/pattern9.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/pattern10.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/pattern2.txt",
+		"/Users/minsu/Documents/DataStructure/Matching/pattern3.txt",
+		"/Users/minsu/Documents/논문시발/朝日新聞、発行停止を食らう",
+		"/Users/minsu/Desktop/인터뷰.txt",
+		"/Users/minsu/Desktop/ichiro.txt",
+		"/Users/minsu/Desktop/友愛.txt",
+		"/Users/minsu/Desktop/rhkwp",
+		"/Users/minsu/Documents/DataStructure/Ass01.java",
+		"/Users/minsu/Desktop/exer1-1.tex",
+		"/Users/minsu/Documents/순서",
+		"/Users/minsu/Documents/1104 동아시아국제정치.txt",
+		"/Users/minsu/Documents/1104동아시아 01",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2007/S.out",
+		"/Users/minsu/Downloads/s.out",
+		"/Users/minsu/Downloads/ALUDesign_final_real/Signed4bitAdder.v",
+		"/Users/minsu/Downloads/ALUDesign_final_real/Signed4bitMul.v",
+		"/Users/minsu/Downloads/ALUDesign_final_real/BitShifter.v",
+		"/Users/minsu/Downloads/ALUDesign_final_real/BitCounter.v",
+		"/Users/minsu/Downloads/a/a1.out",
+		"/Users/minsu/Downloads/2010-10352-ass1/2010-10352-ass1-2.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2010/C.in",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2010/c1.out",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2010/E.in",
+		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/C++/C++.sublime-build",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2010/C.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2010/ctest.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/ICPC_Regionals/CERC2010/E.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/BOJ/10511.in",
+		"/Users/minsu/Documents/Competitive-Programming/Algospot/BST.in",
+		"/Users/minsu/Documents/Competitive-Programming/Algospot/BST.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/BOJ/10511.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/BOJ/oct1701.cpp",
+		"/Users/minsu/Documents/logicdesign.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/BOJ/oct1702.in",
+		"/Users/minsu/Documents/Competitive-Programming/BOJ/oct1702.cpp",
+		"/Users/minsu/Documents/Competitive-Programming/BOJ/oct1701.in",
+		"/Users/minsu/Downloads/PacNW2014Solutions/Containment/Containment.java",
+		"/Users/minsu/Downloads/PacNW2014Solutions/NumberGame/NumberGame2.java",
+		"/Users/minsu/Downloads/PacNW2014Solutions/NumberGame/NumberGame.java",
+		"/Users/minsu/Downloads/PacNW2014Solutions/Function/Function.java",
+		"/Users/minsu/Downloads/637449.cc",
+		"/Users/minsu/Downloads/638637.in",
+		"/Users/minsu/Downloads/637657.cc",
+		"/Users/minsu/Downloads/638637.cc",
+		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"서울역",
+			"고속터미",
+			"사당",
+			"that point",
+			"at best",
+			"you are",
+			"< ",
+			"받았다",
+			" ",
+			"いう。",
+			" ",
+			"　",
+			" ",
+			"友愛",
+			" ",
+			" }",
+			"{ ",
+			"	\n",
+			"-",
+			"	  (",
+			"),",
+			",",
+			"d2[",
+			"s[",
+			"bits",
+			"postsum",
+			"(",
+			">",
+			")",
+			" )",
+			"&",
+			" &",
+			"j",
+			"	\n",
+			"  ",
+			"\",\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 280.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C++/C++.sublime-build",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
