@@ -2,8 +2,6 @@
 title: Typograhy example
 ---
 
-변명하자면 복전 코스를 탄 지 1년도 채 안됐는데, 무슨 project나 research experience가 있을리가 있나ㅠㅠ싶지만, 당장 내년에 대학원을 지원할 마당에 다른 지원자들과 비교를 해야 맞다는 사실을 뼈저리게 느꼈다. 이번학기는 이미 포화상태였지만, 저번 겨울방학을 약간 허투루 보낸 게 아쉽다.
-
 ![Test](/img/img-test.png "Test")
 Lorem ipsum dolor sit amet, [consectetur adipisicing](http://www.example.com) elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet debitis ipsa recusandae possimus minima sunt itaque, nulla ducimus officia, consequatur ipsum laudantium magnam hic fuga vero incidunt nostrum. Commodi, perspiciatis ut nostrum fugit nulla cumque voluptate harum nemo accusamus? 
 
