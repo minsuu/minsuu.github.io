@@ -1,11 +1,11 @@
 # Site settings
-title: Improviser
+title: improviser
 description: "알고리즘, 머신러닝, etc."
-url: "http://www.jacoporabolini.com/emerald"
+url: "http://minsuu.github.io/"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Minsu Kim"
+  email: "ps_ir@naver.com"
+  url: "http://minsuu.github.io/"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
