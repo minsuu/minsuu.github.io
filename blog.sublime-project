@@ -1,8 +1,19 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+
+    "settings":
+    {
+        "Jekyll":
+        {
+            "posts_path": "/Users/Documents/Blog/minsuu.github.io/_posts",
+            "drafts_path": "/Users/Documents/Blog/minsuu.github.io/_drafts",
+            "uploads_path": "/Users/Documents/Blog/minsuu.github.io/uploads",
+        }
+    }
 }
