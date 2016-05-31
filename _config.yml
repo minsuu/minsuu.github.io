@@ -1,7 +1,7 @@
 # Site settings
 title: "Improviser"
 description: "알고리즘, 머신러닝, etc."
-url: "http://minsuu.github.io/"
+url: "http://minsuu.github.io"
 author:
   name: "Minsu Kim"
   email: "ps_ir@naver.com"
