@@ -1,0 +1,7 @@
+---
+title: 1st day
+layout: post
+---
+
+## Convolutional Neural Network로 face recognition하기
+- [Deep face recognition](https://github.com/AlfredXiangWu/face_verification_experiment) : Caffe사용, [CASIA-WebFace dataset](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html)
