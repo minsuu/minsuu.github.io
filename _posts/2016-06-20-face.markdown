@@ -1,0 +1,21 @@
+---
+title: Face Recognition Algorithms & Dataset
+layout: post
+---
+### Dataset
+
+| Name | #Subjects | #Images
+| [LFW](http://vis-www.cs.umass.edu/lfw/index.html) | 5,749 | 13,233
+| [CASIA-WebFace](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) | 10,575 | 494,414
+| [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) | 10,177 |202,599
+
+### Face Recognition&Affine Transform
+- Histograms of oriented gradients for human detection([thesis](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1467360&tag=1))
+- Dlib [implementation](http://dlib.net/imaging.html#object_detector)
+
+### Face2embedding
+- FaceNet: A Unified Embedding for Face Recognition and Clustering([thesis](https://arxiv.org/pdf/1503.03832v3))
+- FaceNet Github Project([git](https://github.com/davidsandberg/facenet))
+
+### Memory Network
+- [End-to-end memory network](http://arxiv.org/pdf/1503.08895v5.pdf)
