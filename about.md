@@ -2,7 +2,6 @@
 layout: page
 title: About
 ---
-## About
 
 ![Nerd](http://i.giphy.com/1iUZiXocraqiP7zy.gif "Nerd")
 
