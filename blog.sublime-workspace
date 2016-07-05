@@ -48,21 +48,21 @@
 			}
 		},
 		{
-			"contents": "---\ntitle: 1st day\nlayout: post\n---\n\n### Memory Network\n- [End-to-end memory network](http://arxiv.org/pdf/1503.08895v5.pdf)\n\n### Face recognition using CNN\n- Dataset\n- [Labeled Faces in the Wild Dataset](http://vis-www.cs.umass.edu/lfw/index.html)\n- Implementations\n- [OpenFace](http://cmusatyalab.github.io/openface/)\n- [Deep face recognition](https://github.com/AlfredXiangWu/face_verification_experiment) : Caffe사용, [CASIA-WebFace dataset](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html)\n- [When Face Recognition Meets with Deep Learning: an Evaluation of Convolutional Neural Networks for Face Recognition(2015)](http://arxiv.org/pdf/1504.02351v1.pdf)\n\n### Keywords\n- Tensorflow\n- ",
-			"file": "_posts/2016-06-20-1st-day.markdown",
-			"file_size": 675,
-			"file_write_time": 131109063220000000,
+			"contents": "---\ntitle: Face Recognition Algorithms & Dataset\nlayout: post\n---\nFace Recognition Algorithm과, Dataset의 종류를 정리한다.\n\n\n### Dataset\n\n| Name | #Subjects | #Images\n| [LFW](http://vis-www.cs.umass.edu/lfw/index.html) | 5,749 | 13,233\n| [CASIA-WebFace](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) | 10,575 | 494,414\n| [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) | 10,177 |202,599\n\n### Face Recognition&Affine Transform\n- Histograms of oriented gradients for human detection([thesis](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1467360&tag=1))\n- Dlib [implementation](http://dlib.net/imaging.html#object_detector)\n\n### Face2embedding\n- FaceNet: A Unified Embedding for Face Recognition and Clustering([thesis](https://arxiv.org/pdf/1503.03832v3))\n- FaceNet Github Project([git](https://github.com/davidsandberg/facenet))\n\n### Memory Network\n- [End-to-end memory network](http://arxiv.org/pdf/1503.08895v5.pdf)",
+			"file": "_posts/2016-06-20-face.markdown",
+			"file_size": 892,
+			"file_write_time": 131111333270000000,
 			"settings":
 			{
-				"buffer_size": 700,
+				"buffer_size": 942,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "pbin/2015-03-19-typography.md",
+			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 2004,
+				"buffer_size": 613,
 				"line_ending": "Unix"
 			}
 		}
@@ -107,9 +107,13 @@
 	"command_palette":
 	{
 		"height": 84.0,
-		"last_filter": "new pos",
+		"last_filter": "new po",
 		"selected_items":
 		[
+			[
+				"new po",
+				"Jekyll: New post"
+			],
 			[
 				"new pos",
 				"Jekyll: New post"
@@ -238,6 +242,7 @@
 	[
 		"/Users/minsu/Documents/Blog/minsuu.github.io",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_layouts",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_sass",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/css",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/js",
@@ -245,6 +250,8 @@
 	],
 	"file_history":
 	[
+		"/Users/minsu/Downloads/ptb_word_lm.py",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts/2016-06-19-misc-tools.markdown",
 		"/Users/minsu/Downloads/axhspan_demo.py",
 		"/Users/minsu/Downloads/model-20160506.ckpt-500000",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts/2015-03-19-typography.md",
@@ -421,6 +428,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -449,6 +457,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -478,6 +487,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -508,6 +518,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -537,6 +548,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -548,23 +560,24 @@
 				},
 				{
 					"buffer": 5,
-					"file": "_posts/2016-06-20-1st-day.markdown",
+					"file": "_posts/2016-06-20-face.markdown",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 700,
+						"buffer_size": 942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								700,
-								700
+								114,
+								114
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -576,27 +589,28 @@
 				},
 				{
 					"buffer": 6,
-					"file": "pbin/2015-03-19-typography.md",
-					"semi_transient": true,
+					"file": "_config.yml",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2004,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								325,
+								325
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 115.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -611,7 +625,7 @@
 	},
 	"input":
 	{
-		"height": 42.0
+		"height": 73.0
 	},
 	"layout":
 	{
