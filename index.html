@@ -12,7 +12,7 @@ layout: default
 	  		<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
 	  		<a href="{{ post.url }}#disqus_thread" class = "disqus-comment-count" data-disqus-url = "{{ post.url }}">Link</a>
 	  	</div>
-	  	<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+	  	<p>{{ post.excerpt | strip_html }}</p>
 	  </li>
 
     {% endfor %}
