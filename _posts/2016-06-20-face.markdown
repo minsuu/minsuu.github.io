@@ -3,7 +3,6 @@ title: Face Recognition Algorithms & Dataset
 layout: post
 ---
 Face Recognition Algorithm과, Dataset의 종류를 정리한다.
-<!--break-->
 
 ### Dataset
 
