@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/post.html",
+			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 1063,
+				"buffer_size": 2068,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,50 +19,47 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 611,
+				"buffer_size": 592,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "blog.sublime-project",
+			"file": "_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 408,
+				"buffer_size": 854,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"file": "_includes/menu.html",
 			"settings":
 			{
-				"buffer_size": 668,
+				"buffer_size": 663,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 249,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "---\ntitle: Face Recognition Algorithms & Dataset\nlayout: post\n---\nFace Recognition Algorithm과, Dataset의 종류를 정리한다.\n\n\n### Dataset\n\n| Name | #Subjects | #Images\n| [LFW](http://vis-www.cs.umass.edu/lfw/index.html) | 5,749 | 13,233\n| [CASIA-WebFace](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) | 10,575 | 494,414\n| [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) | 10,177 |202,599\n\n### Face Recognition&Affine Transform\n- Histograms of oriented gradients for human detection([thesis](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1467360&tag=1))\n- Dlib [implementation](http://dlib.net/imaging.html#object_detector)\n\n### Face2embedding\n- FaceNet: A Unified Embedding for Face Recognition and Clustering([thesis](https://arxiv.org/pdf/1503.03832v3))\n- FaceNet Github Project([git](https://github.com/davidsandberg/facenet))\n\n### Memory Network\n- [End-to-end memory network](http://arxiv.org/pdf/1503.08895v5.pdf)",
 			"file": "_posts/2016-06-20-face.markdown",
-			"file_size": 892,
-			"file_write_time": 131111333270000000,
 			"settings":
 			{
-				"buffer_size": 942,
+				"buffer_size": 1153,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_config.yml",
+			"file": "_posts/2016-07-02-linear--logistic-regression.markdown",
 			"settings":
 			{
-				"buffer_size": 613,
+				"buffer_size": 185,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/script.html",
+			"settings":
+			{
+				"buffer_size": 274,
 				"line_ending": "Unix"
 			}
 		}
@@ -241,6 +238,7 @@
 	"expanded_folders":
 	[
 		"/Users/minsu/Documents/Blog/minsuu.github.io",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_includes",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_layouts",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_sass",
@@ -250,17 +248,21 @@
 	],
 	"file_history":
 	[
-		"/Users/minsu/Downloads/ptb_word_lm.py",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_config.yml",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_includes/script.html",
+		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts/2016-06-20-face.markdown",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_layouts/default.html",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_includes/head.html",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts/2016-06-19-misc-tools.markdown",
+		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/blog.sublime-project",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/index.html",
+		"/Users/minsu/Documents/Blog/minsuu.github.io/_layouts/post.html",
+		"/Users/minsu/Downloads/ptb_word_lm.py",
 		"/Users/minsu/Downloads/axhspan_demo.py",
 		"/Users/minsu/Downloads/model-20160506.ckpt-500000",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_posts/2015-03-19-typography.md",
-		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
-		"/Users/minsu/Documents/Blog/minsuu.github.io/blog.sublime-project",
-		"/Users/minsu/Documents/Blog/minsuu.github.io/_config.yml",
-		"/Users/minsu/Documents/Blog/minsuu.github.io/_includes/head.html",
-		"/Users/minsu/Documents/Blog/minsuu.github.io/_includes/script.html",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_sass/layout.scss",
 		"/Users/minsu/Documents/Blog/minsuu.github.io/_sass/typography.scss",
 		"/Users/minsu/Library/Application Support/Sublime Text 3/Installed Packages/Jekyll.sublime-package",
@@ -336,13 +338,14 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 71.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 161.0,
 		"where_history":
 		[
+			"/Users/minsu/Documents/Blog/minsuu.github.io"
 		]
 	},
 	"find_state":
@@ -350,6 +353,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"script",
 			"/username/site",
 			"}",
 			"font-fam",
@@ -406,36 +410,37 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/post.html",
+					"file": "_layouts/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1063,
+						"buffer_size": 2068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								115,
+								116
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -444,20 +449,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 611,
+						"buffer_size": 592,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
+								550,
+								550
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -470,27 +474,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "blog.sublime-project",
+					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 408,
+						"buffer_size": 854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								107,
+								109
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -501,55 +503,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"file": "_includes/menu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 668,
+						"buffer_size": 663,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								359
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 123.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/minsu/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -559,25 +531,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "_posts/2016-06-20-face.markdown",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 942,
+						"buffer_size": 1153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								322,
+								322
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -588,32 +559,59 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "_config.yml",
+					"buffer": 5,
+					"file": "_posts/2016-07-02-linear--logistic-regression.markdown",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 613,
+						"buffer_size": 185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
-								325
+								65,
+								65
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 115.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/script.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
