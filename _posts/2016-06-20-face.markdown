@@ -6,6 +6,12 @@ Face Recognition Algorithm과, Dataset의 종류를 정리한다.
 
 ### Dataset
 
+| Name | # of Subjects | # of Images |
+|------|---------------|-------------|
+|      |               |             |
+|      |               |             |
+|      |               |             |
+
 | Name | #Subjects | #Images |
 |-|-|-|
 | [LFW](http://vis-www.cs.umass.edu/lfw/index.html) | 5,749 | 13,233 |
