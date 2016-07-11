@@ -23,6 +23,8 @@ torch설치를 그대로 하려면 sudo권한이 필요. 돌아가기 위해서 
 그 후 [torch](http://torch.ch/docs/getting-started.html#_)의 getting started에서 설치를 해본다.
 그런데 ``torch install image``가 먹질 않는다..ㅠㅠ git경로를 지정해 억지로 설치했더니, ``require 'image'``가 ``117: error loading module 'libimage' from file``라는 에러를 띄웠다.
 
+암걸릴 것 같아서 다른 서버에서 시도해 보니 똑같은 절차를 거쳤음에도 불구하고 잘 됐다-_-
+
 
 
 
