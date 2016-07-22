@@ -1,5 +1,5 @@
 ---
-title: tackling with django
+title: tackling with flask
 layout: post
 ---
 
