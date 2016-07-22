@@ -11,7 +11,7 @@ flask와 헤딩하는 과정을 써본다.
 
 ### basic app
 
-{% hightlight python linenos %}
+{% highlight python linenos %}
 from flask import Flask
 app = Flask(__name__)
 
@@ -29,7 +29,7 @@ if __name__=="__main__":
 
 출력뿐 아니라 html문서를 뿌려주고 싶다면? 다음과 같이 하면 된다.
 
-{% hightlight python linenos %}
+{% highlight python linenos %}
 @app.route('/')
 def hello():
     return render_template('index.html')
@@ -39,7 +39,7 @@ def hello():
 
 image와 같이 하나하나 route해주기 귀찮다면? 다음과 같이 directory단위 routing을 할 수 있다.
 
-{% hightlight python linenos %}
+{% highlight python linenos %}
 @app.route('/resources/<path:path>')
 def data(path):
     return send_from_directory('resources/', path)
