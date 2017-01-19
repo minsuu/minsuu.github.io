@@ -12,7 +12,7 @@ title: cv
 *B.A. in [International Relations](http://ir.snu.ac.kr/english/){:target='_blank'} and [Computer Science and Engineering](http://cse.snu.ac.kr/){:target='_blank'}*
 
 * Overall GPA : 3.77/4.3
-* GPA of CSE courses : 4.2/4.3" %}
+* GPA of CSE courses : 4.2/4.3" date="2010.3~2017.8(expected)"%}
 
 ### <span class="icon-star-full"></span> Interests
 
@@ -26,7 +26,8 @@ Especially, I like to participate in competitive programming contests where the 
 
 {% include cvbox.html type="info" title="[Vision and Learning Laboratory](http://vision.snu.ac.kr/){:target='_blank'}, Seoul National University" content="
 *Undergraduate Research Intern*
-Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home/){:target='_blank'}, which trains the model via various sources like sentences and video feature."%}
+
+Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home/){:target='_blank'}, which trains the model via various sources like sentences and video feature." date="2016.7~2016.8"%}
 
 ### <span class="icon-trophy"></span> Awards and Honors
 
