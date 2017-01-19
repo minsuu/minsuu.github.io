@@ -8,7 +8,9 @@ title: cv
 
 ### Education
 
-{% include cvbox.html type="primary" title="[Seoul National University](http://en.snu.ac.kr/)" content="
+{% include cvbox.html type="primary" title="
+<span class="icon-book"></span>
+[Seoul National University](http://en.snu.ac.kr/)" content="
 *B.A. in [International Relations](http://ir.snu.ac.kr/english/) and [Computer Science and Engineering](http://cse.snu.ac.kr/)*
 
 * Overall GPA : 3.77/4.3
