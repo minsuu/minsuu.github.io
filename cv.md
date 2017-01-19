@@ -1,6 +1,7 @@
 ---
 layout: default
 title: cv
+color: '#428bca'
 ---
 # Minsu Kim
 <hr/>
