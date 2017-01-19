@@ -28,7 +28,7 @@ sidebar_tags:        [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/stars.jpg
-color:               '#FFD800'
+color:               '#ae403f'
 
 # Fonts
 font:                '"PT Serif", Georgia, serif'
@@ -37,11 +37,11 @@ load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 
 # About yourself
 author:
-  name:              'Florian Klampfer'
+  name:              'Minsu Kim'
 
   # This photo will be used in the about section
-  photo:             http://qwtel.com/public/img/flo.jpg
-  photo2x:           http://qwtel.com/public/img/flo@2x.jpg
+  photo:             /public/img/min.jpg
+  photo2x:           /public/img/min@2x.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
