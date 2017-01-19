@@ -1,72 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-	<div id="wrap">
-	  	
-	  	<!-- Navigation -->
-	  	{% include menu.html %}
-    
-    <!-- Icon menu -->
-	  <a {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
-	  	<div id="menu"></div>
-	  </a>
+  <body>
 
-      <!-- Header -->
-      {% if site.custom_header == true %}
-        {% include header-custom.html %}
-      {% else %}
-        {% include header.html %}
-      {% endif %}
+    {% include sidebar.html %}
 
-    <!-- Main content -->
-	  <div id="container">
-		  
-		<main>
-
-			{{ content }}
-
-	  </main>
-		
-		  <!-- Pagination links -->
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page == 1 %}
-            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% elsif paginator.previous_page%}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% else %}
-            <span class="page-item">&laquo;</span>
-          {% endif %}
-        
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <span class="page-item">{{ page }}</span>
-            {% elsif page == 1 %}
-              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
-            {% else %}
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
-            {% endif %}
-          {% endfor %}
-        
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
-          {% else %}
-            <span class="page-item">&raquo;</span>
-          {% endif %}
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
         </div>
-        {% endif %}
+      </div>
 
-	  </div>
-	    
-	    <!-- Footer -->
-	    {% include footer.html %}
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
 
-	    <!-- Script -->
-      {% include script.html %}
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-	</div>
-</body>
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
 </html>

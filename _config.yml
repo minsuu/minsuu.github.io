@@ -1,36 +1,22 @@
-# Site settings
-title: "Improviser"
-description: "알고리즘, 머신러닝, etc."
-url: "http://minsuu.github.io"
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
 author:
-  name: "Minsu Kim"
-  email: "ps_ir@naver.com"
-  url: "http://minsuu.github.io/"
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-# Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
-
-redcarpet:
-  extensions: [tables]
-
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Custom variables
-version: "1.1.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+# Custom vars
+version:             1.0.0
