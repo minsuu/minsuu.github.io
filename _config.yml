@@ -45,7 +45,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    yet another yak shaver
+    yet another [yak shaver](http://imgur.com/gallery/D0daEJW){:target="_blank"}
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
