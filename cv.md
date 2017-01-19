@@ -14,7 +14,7 @@ title: cv
 * Overall GPA : 3.77/4.3
 * GPA of CSE courses : 4.2/4.3" %}
 
-### <span class="star-full"></span> Interests
+### <span class="icon-star-full"></span> Interests
 
 {% include cvbox.html type="info" title="Deep Learning" content="
 I’m interested in tackling challenging problems in machine learning using powerful tools like TensorFlow."%}
@@ -22,8 +22,8 @@ I’m interested in tackling challenging problems in machine learning using powe
 {% include cvbox.html type="info" title="Algorithm Design" content="I’m interested in designing & analysing efficient algorithms for specific problems. I’ve written thousands of C++/Java codes for numerous algorithms and data structures solving many well-known problems.
 Especially, I like to participate in competitive programming contests where the ability to write correct and efficient program in a limited time is important."%}
 
-### <span class="e9aa"></span> Work and Research Experiences
+### <span class="icon-lab"></span> Work and Research Experiences
 
-### <span class="e99e"></span> Awards and Honors
+### <span class="icon-trophy"></span> Awards and Honors
 
-### <span class="checkbox-checked"></span> Skills
+### <span class="icon-checkbox-checked"></span> Skills
