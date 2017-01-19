@@ -28,12 +28,12 @@ Especially, I like to participate in competitive programming contests where the 
 {% include cvbox.html type="info" title="[Vision and Learning Laboratory](http://vision.snu.ac.kr/){:target='_blank'}, Seoul National University" content="
 *Undergraduate Research Intern*
 
-Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home/){:target='_blank'}, which trains the model via various sources like sentences and video feature." date="2016.7~2016.8"%}
+Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home/){:target='_blank'}, in which it is necessary to train the deep neural network via various sources like sentences and video feature." date="2016.7~2016.8"%}
 
 {% include cvbox.html type="info" title="[Cyber-Physical Systems Laboratory](http://cps.kaist.ac.kr/){:target='_blank'}, KAIST" content="
 *Undergraduate Research Intern*
 
-Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car" date="2016.12~2017.2"%}
+Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car." date="2016.12~2017.2"%}
 
 ### <span class="icon-trophy"></span> Awards and Honors
 
