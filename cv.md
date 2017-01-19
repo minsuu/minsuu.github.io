@@ -8,12 +8,12 @@ title: cv
 
 ### Education
 
-<div class="bs-callout bs-callout-primary">
+<span class="bs-callout bs-callout-primary">
 
   ## [Seoul National University](http://en.snu.ac.kr/)
 
   *Undergraduate Student double majoring in [International Relations](http://ir.snu.ac.kr/english/)&[Computer Science and Engineering](http://cse.snu.ac.kr/)*
-  
+
   * Overall GPA : 3.77/4.3
   * GPA of CSE courses : 4.2/4.3
 
