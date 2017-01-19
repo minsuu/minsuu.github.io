@@ -9,4 +9,12 @@ title: Curriculum Vitae
 {% endcomment %}
 {% include about-short.html author=site.author %}
 
-[write something about self]
+## EDUCATION
+
+## INTERESTS
+
+## WORK AND RESEARCH EXPERIENCES
+
+## AWARDS AND HONORS
+
+## SKILLS
