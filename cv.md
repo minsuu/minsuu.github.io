@@ -24,6 +24,10 @@ Especially, I like to participate in competitive programming contests where the 
 
 ### <span class="icon-lab"></span> Work and Research Experiences
 
+{% include cvbox.html type="info" title="[Vision and Learning Laboratory](http://vision.snu.ac.kr/){:target='_blank'}, Seoul National University" content="
+*Undergraduate Research Intern*
+Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home/){:target='_blank'}, which trains the model via various sources like sentences and video feature."%}
+
 ### <span class="icon-trophy"></span> Awards and Honors
 
 ### <span class="icon-checkbox-checked"></span> Skills
