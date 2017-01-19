@@ -33,10 +33,9 @@ image:               /hydejack/public/img/nap.jpg
 color:               '#A85641'
 
 # Fonts
-font:                'Georgia, serif'
-font_accent:         '"PT-Sans", Georgia, serif'
-load_google_fonts:   'PT+Serif:400,400italic'
-# load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
+font:                '"PT Serif", Georgia, serif'
+font_accent:         '"Roboto Slab", "PT Serif", Georgia, serif'
+load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 
 # About yourself
 author:
