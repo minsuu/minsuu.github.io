@@ -30,6 +30,11 @@ Especially, I like to participate in competitive programming contests where the 
 
 Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home/){:target='_blank'}, which trains the model via various sources like sentences and video feature." date="2016.7~2016.8"%}
 
+{% include cvbox.html type="info" title="[Cyber-Physical Systems Laboratory](http://cps.kaist.ac.kr/){:target='_blank'}, KAIST" content="
+*Undergraduate Research Intern*
+
+Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car" date="2016.12~2017.2"%}
+
 ### <span class="icon-trophy"></span> Awards and Honors
 
 {% include cvbox.html type="info" title="ACM-ICPC Daejeon Regional Main Contest" content="
@@ -44,4 +49,4 @@ Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home
 * C/C++, Python, Java, C#, Scala (*ordered by proficiency*)"%}
 
 {% include cvbox.html type="info" title="Other Tools" content="
-* LaTeX, Vim, Sublime Text, Git"%}
+* LaTeX, Markdown, Vim, Sublime Text, Git"%}
