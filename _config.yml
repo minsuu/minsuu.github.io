@@ -13,7 +13,7 @@ url:                 http://minsuu.github.io
 # i.e. `http://<username>.github.io`
 baseurl:             ''
 
-title:               계속해보겠습니다
+title:               Minsu Kim
 
 # Pagination
 paginate:            5
@@ -21,9 +21,7 @@ paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`{:style="background: rgba(255, 255, 255, 0.15)"}](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+  
 
 # The tags listed as entries in the sidebar
 sidebar_tags:        [jekyll, hyde]
