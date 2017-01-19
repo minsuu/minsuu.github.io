@@ -21,14 +21,14 @@ paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  
+
 
 # The tags listed as entries in the sidebar
 sidebar_tags:        [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /public/img/moon.jpg
-color:               '#A85641'
+image:               /public/img/stars.jpg
+color:               '#FFD800'
 
 # Fonts
 font:                '"PT Serif", Georgia, serif'
