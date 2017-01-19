@@ -36,7 +36,12 @@ Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home
 *ranked 7th place(team EeveE)*" date="2015.12"%}
 
 {% include cvbox.html type="info" title="Codeforces" content="
-*rating : 1930(7% of users, handle : minsu)*"%}
+*rating : 1930(7% of users, handle : [minsu](http://codeforces.com/profile/minsu){:target='_blank'})*"%}
 
 ### <span class="icon-checkbox-checked"></span> Skills
 
+{% include cvbox.html type="info" title="Programming Languages" content="
+* C/C++, Python, Java, C#, Scala (*ordered by proficiency*)"%}
+
+{% include cvbox.html type="info" title="Other Tools" content="
+* LaTeX, Vim, Sublime Text, Git"%}
