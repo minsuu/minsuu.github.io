@@ -44,6 +44,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ site.load_google_fonts }}">
     {% endif %}
 
+    {% if site.load_early_fonts %}
+    @import url(http://fonts.googleapis.com/earlyaccess/{{ site.load_early_fonts }});
+    {% endif %}   
+
     {% if site.author.social %}
     <link rel="stylesheet" href="{{ site.baseurl }}/public/css/icons.css">
     {% endif %}
