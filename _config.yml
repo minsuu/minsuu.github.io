@@ -31,8 +31,8 @@ image:               /public/img/stars.jpg
 color:               '#ae403f'
 
 # Fonts
-font:                '"Nanum Gothic", "PT Serif", Georgia, serif'
-font_accent:         '"Roboto Slab", "PT Serif", "Nanum Gothic", Georgia, serif'
+font:                '"PT Serif", Georgia'
+font_accent:         '"Roboto Slab", "PT Serif", Georgia'
 load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
 load_early_fonts:    'nanumgothic.css'
 

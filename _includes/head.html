@@ -35,9 +35,6 @@
     {% include styles/essentials.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
-    {% if site.load_early_fonts %}
-    @import url(http://fonts.googleapis.com/earlyaccess/{{ site.load_early_fonts }});
-    {% endif %}   
   </style>
 
   <noscript>
