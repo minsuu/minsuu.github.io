@@ -4,7 +4,6 @@ title: Curriculum Vitae
 ---
 
 # Minsu Kim
-<hr/>
 
 {% comment %}
   This inserts the "about" photo and text from `_config.yml`.
