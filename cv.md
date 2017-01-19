@@ -32,4 +32,11 @@ Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home
 
 ### <span class="icon-trophy"></span> Awards and Honors
 
+{% include cvbox.html type="info" title="ACM-ICPC Daejeon Regional Main Contest" content="
+*ranked 7th place(team EeveE)*" date="2015.12"%}
+
+{% include cvbox.html type="info" title="Codeforces" content="
+*rating : 1930(7% of users, handle : minsu)*"%}
+
 ### <span class="icon-checkbox-checked"></span> Skills
+
