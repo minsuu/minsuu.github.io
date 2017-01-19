@@ -43,19 +43,22 @@ hr {
 }
 
 .bs-callout {
-    padding: 20px;
-    margin: 20px 0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
     border: 1px solid #eee;
     border-left-width: 5px;
     border-radius: 3px;
 }
-.bs-callout h4 {
+
+.bs-callout h3 {
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
+
 .bs-callout p:last-child {
     margin-bottom: 0;
 }
+
 .bs-callout code {
     border-radius: 3px;
 }
