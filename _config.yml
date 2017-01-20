@@ -31,10 +31,9 @@ image:               /public/img/stars.jpg
 color:               '#ae403f'
 
 # Fonts
-font:                '"PT Serif", "Spoqa Han Sans", Georgia'
-font_accent:         '"Roboto Slab", "PT Serif", "Spoqa Han Sans", Georgia'
+font:                '"PT Serif", "RixSGo M", Georgia'
+font_accent:         '"Roboto Slab", "PT Serif", "RixSGo M", Georgia'
 load_google_fonts:   'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
-load_early_fonts:    'nanumgothic.css'
 
 # About yourself
 author:
