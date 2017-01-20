@@ -18,21 +18,21 @@ tag: [tech]
 
 * 모든 layout의 크기는 `\_sass\hydejack\_base-essential.scss`에서 설정된 `font-size`에 비례하게끔 설정되어 있다. 전체적으로 blog의 크기를 확대/축소시키고 싶을 때 이 두 개의 크기를 조절한다.
 
-    ~~~css
-    @media (min-width: 48em) {
-      html {
-        font-size: 17px;
-      }
-      body {
-        padding-left: 0;
-      }
-    }
-    @media (min-width: 58em) {
-      html {
-        font-size: 19px;
-      }
-    }
-    ~~~
+~~~css
+@media (min-width: 48em) {
+  html {
+    font-size: 17px;
+  }
+  body {
+    padding-left: 0;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 19px;
+  }
+}
+~~~
 
 ## Writing CV page
 
