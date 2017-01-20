@@ -106,4 +106,4 @@ compress_html:
 sass:
   style:             compressed
 
-excerpt_separator: "@@@"
+excerpt_separator: "<!--more-->"
