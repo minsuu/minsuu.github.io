@@ -35,6 +35,11 @@
 
   <hr/>
 
-  {{ post.content }}
+
+  {% if include.link_title %}
+    {{ post.excerpt }}
+  {% else %}
+    {{ post.content }}
+  {% endif %}
 
 </article>
