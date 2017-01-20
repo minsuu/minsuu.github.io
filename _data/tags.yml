@@ -17,3 +17,7 @@ ps:
   description: >
     죽기 전에 레드 한 번 찍어보는 게 소원입니다.
 
+tech:
+  name: Tech
+  description: >
+    the *essence* of yak shaving!
