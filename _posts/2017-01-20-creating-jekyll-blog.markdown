@@ -81,6 +81,7 @@ Jekyll로 블로그를 만들면서 다음과 같은 점들을 목표로 두었�
 
 뭐 적절히 타협해서 callout box 안에 있는 내용은 HTML로 작성할 수도 있었지만, 그게 너무 귀찮았고 해결책을 알아본 결과, [Jekyll의 include구문](https://jekyllrb.com/docs/includes/)를 이용해서 해결했다. `_includes/cvbox.html`을 만들고 다음과 같이 작성해줬다.
 
+{% raw %} 
 ~~~ html
 <div class="bs-callout bs-callout-{{ include.type }}">
   <h4>{{ include.title | markdownify }}<span class="date">{{ include.date }}</span></h4>
@@ -90,7 +91,6 @@ Jekyll로 블로그를 만들면서 다음과 같은 점들을 목표로 두었�
 
 이게 하는 일은, 적절한 markdown string을 입력받아 그것을 callout box의 형태로 뿌려주는 것이다. 이제 이걸 사용하기 위해서는 markdown문서 내에서 include만 시켜주면 됐다. 다음과 같은 형태로..
 
-{% raw %} 
 ~~~ markdown
 {% include cvbox.html type="info" title="Programming Languages" content="
 * C/C++, Python, Java, C#, Scala (*ordered by proficiency*)"%}
