@@ -10,6 +10,13 @@ tag: [tech]
 
 <!--more-->
 
+## Goal
+
+Jekyll로 블로그를 만들면서 다음과 같은 점들을 목표로 두었다.
+
+* 보기에 아름답고 수정하기 쉬운 CV페이지를 포함해야 한다.
+* markdown을 지원하고 글쓰기/수정이 tistory만큼이나 편리하게 이루어져야 한다.
+
 ## Setting up Jekyll
 
 블로그 테마는 [hydejack](https://github.com/qwtel/hydejack)을 기반으로 했다. Jekyll은 게시물 tag기능이 내장돼있지 않아서 따로 만들어줘야 하는데, 우선 태그 기능이 이미 달려 있어서 좋았다(..) 디자인과 태그 기능만을 보고 택한 테마였는데, 내부 구현 코드도 깔끔해서 customize하기 좋았다. 해당 테마를 받아와서 github pages로 올리는 과정은 [Github Pages+Jekyll Tutorial](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)에 잘 나와있다.
@@ -67,6 +74,7 @@ tag: [tech]
 
 ## Writing CV page
 
+개인 페이지로서 블로그보다도 CV를 제대로 써넣고 싶었는데,    
 
 ## Sublime Plugin Setting
 

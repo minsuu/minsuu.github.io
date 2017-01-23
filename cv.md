@@ -33,7 +33,7 @@ Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home
 {% include cvbox.html type="info" title="[Cyber-Physical Systems Laboratory](http://cps.kaist.ac.kr/){:target='_blank'}, KAIST" content="
 *Undergraduate Research Intern*
 
-Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car." date="2016.12~2017.2"%}
+Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car." date="2016.12~present"%}
 
 ### <span class="icon-trophy"></span> Awards and Honors
 
