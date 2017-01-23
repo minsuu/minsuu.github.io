@@ -10,12 +10,14 @@ tag: [tech]
 
 <!--more-->
 
-## Goal
+## Goals
 
 Jekyll로 블로그를 만들면서 다음과 같은 점들을 목표로 두었다.
 
 * 보기에 아름답고 수정하기 쉬운 CV페이지를 포함해야 한다.
-* markdown을 지원하고 글쓰기/수정이 tistory만큼이나 편리하게 이루어져야 한다.
+* markdown을 지원하고 desktop editor에서 글쓰기/수정이 편리하게 이루어져야 한다.
+
+두 개 모두 티스토리에서는 요원한 일임에 분명했다(..)
 
 ## Setting up Jekyll
 
@@ -59,7 +61,6 @@ Jekyll로 블로그를 만들면서 다음과 같은 점들을 목표로 두었�
       {% endif %}
     {% endif %}
   {% endfor %}
-
   {% endcomment %}
 
   <li>
