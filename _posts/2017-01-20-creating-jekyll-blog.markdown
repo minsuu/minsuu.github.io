@@ -34,10 +34,38 @@ tag: [tech]
 }
 ~~~
 
-* 
+* 기본 설정에서 사이드바에 표시되는 아이템은 `_config.yml`에서 설정되는 `sidebar_tags`의 목록과 함께, "layout이 page인 모든 페이지들"이 자동적으로 표시된다. 이것은 `_includes/nav.html`을 수정하면 되는데, 내 경우에는 페이지가 추가되는 부분을 주석처리하고 CV와 Archive를 고정적으로 메뉴에 넣어주었다.
+
+{% raw %}
+~~~ html
+  {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `layout: page` in the front-matter. See readme for usage.
+
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+      <li>
+        <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend:site.baseurl }}">{{ node.title }}</a>
+      </li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% endcomment %}
+
+  <li>
+    <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="/archive">Archive</a>
+  </li>
+
+  <li>
+    <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="/cv">Curriculum Vitae</a>
+  </li>
+~~~
+{% endraw %}
 
 ## Writing CV page
-
 
 
 ## Sublime Plugin Setting
