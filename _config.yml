@@ -45,7 +45,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    minsu AT kaist.ac.kr
+    minsu AT kaist.ac.kr<br>
     yet another [yak shaver](http://imgur.com/gallery/D0daEJW){:target="_blank"}
 
   # Social media icons in sidebar
