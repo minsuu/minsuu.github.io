@@ -13,12 +13,12 @@ color: '#428bca'
 *B.A. in [International Relations](http://ir.snu.ac.kr/english/){:target='_blank'} and [Computer Science and Engineering](http://cse.snu.ac.kr/){:target='_blank'}*
 
 * Overall GPA : 3.77/4.3
-* GPA of CSE courses : 4.2/4.3" date="2010.3~2017.8(expected)"%}
+* GPA of CSE courses : 4.2/4.3" date="2010.3~2017.8"%}
 
 {% include cvbox.html type="info" title="[Korea Advanced Institute of Science and Technology](http://www.kaist.edu/){:target='_blank'}" content="
 *M.S in [School of Computing](https://cs.kaist.ac.kr/){:target='_blank'}*
 
-* Advisor : Prof. Insik Shin
+* Advisor : Prof. [Insik Shin](http://cps.kaist.ac.kr/~ishin){:target='_blank'}
 * Working at [CPSlab](http://cps.kaist.ac.kr){:target='_blank'}" date="2017.9~"%}
 
 ### <span class="icon-star-full"></span> Interests
@@ -39,7 +39,7 @@ Worked on improving the accuracy of [movieQA](http://movieqa.cs.toronto.edu/home
 {% include cvbox.html type="info" title="[Cyber-Physical Systems Laboratory](http://cps.kaist.ac.kr/){:target='_blank'}, KAIST" content="
 *Undergraduate Research Intern*
 
-Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car." date="2016.12~present"%}
+Supporting the implementation of mixed criticality software-defined network on autonomous 1/10th scale race car." date="2016.12~2017.8"%}
 
 ### <span class="icon-trophy"></span> Awards and Honors
 
