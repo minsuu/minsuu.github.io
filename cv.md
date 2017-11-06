@@ -16,7 +16,7 @@ color: '#428bca'
 * GPA of CSE courses : 4.2/4.3" date="2010.3~2017.8"%}
 
 {% include cvbox.html type="info" title="[Korea Advanced Institute of Science and Technology](http://www.kaist.edu/){:target='_blank'}" content="
-*M.S in [School of Computing](https://cs.kaist.ac.kr/){:target='_blank'}*
+*M.S. in [School of Computing](https://cs.kaist.ac.kr/){:target='_blank'}*
 
 * Advisor : Prof. [Insik Shin](http://cps.kaist.ac.kr/~ishin){:target='_blank'}
 * Working at [CPSlab](http://cps.kaist.ac.kr){:target='_blank'}" date="2017.9~"%}
