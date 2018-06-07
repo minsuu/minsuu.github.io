@@ -59,12 +59,12 @@ var loadComments = function(data) {
     document.getElementById("comments").appendChild(temp);
   }
   var addComment = document.createElement("div");
-  addComment.innerHTML = "<hr/><p>Our comments are using GitHub Issues on the Artsy Blog repo. You can post by replying to <a href='https://github.com/minsuu/minsuu.github.io/issues/{{ page.comment_id }}'>issue #{{ page.comment_id }}</a>.</p>";
+  addComment.innerHTML = "<hr/><p>Comments are using GitHub Issues on my Blog repo. You can post by replying to <a href='https://github.com/minsuu/minsuu.github.io/issues/{{ page.comment_id }}'>issue #{{ page.comment_id }}</a>.</p>";
   document.getElementById("comments").appendChild(addComment);
 };
 var writeFirstComment = function() {
     var addComment = document.createElement("div");
-    addComment.innerHTML = "<hr/><p>This post has no comments, yet, you could be the first. Our comments are using GitHub Issues on the Artsy Blog repo. You can post by replying to <a href='https://github.com/artsy/artsy.github.io/issues/{{ page.comment_id }}'>issue #{{ page.comment_id }}.</a></p>";
+    addComment.innerHTML = "<hr/><p>This post has no comments, yet, you could be the first. Comments are using GitHub Issues on my Blog repo. You can post by replying to <a href='https://github.com/minsuu/minsuu.github.io/issues/{{ page.comment_id }}'>issue #{{ page.comment_id }}.</a></p>";
     document.getElementById("comments").appendChild(addComment);
 };
 if (window.fetch) {
