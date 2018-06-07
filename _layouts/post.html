@@ -6,6 +6,9 @@ layout: default
 
 {% include related.html post=page %}
 
-{% if site.disqus %}
-{% include comments.html post=page %}
+{% if page.comment_id %}
+<aside class="comments" role="complementary">
+  <h2>Comments</h2>
+  {% include gh_comments.html %}
+</aside>
 {% endif %}
