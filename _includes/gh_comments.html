@@ -30,8 +30,8 @@ function timeSince(date) {
    And http://donw.io/post/github-comments/ */
 var loadComments = function(data) {
   var header = document.createElement("h2");
-  temp.innerText = "Comments";
-  document.getElementById("comments").appendChild(temp);
+  header.innerText = "Comments";
+  document.getElementById("comments").appendChild(header);
   for (var i = 0; i < data.length; i++) {
     var cuser = data[i].user.login;
     var cuserlink = data[i].user.html_url;
